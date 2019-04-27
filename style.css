@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header img {
+  border-radius: 10px;
+}
+.header p{
+  font-size: 80px;
+}
+.nav{
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  font-size: 20px;
+}
+.nav ul{
+  background: black;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+  padding: 0 20px;
+}
+.nav ul li{
+  float: left;
+}
+.nav ul li:hover{
+  background: skyblue;
+
+}
+.nav ul li:hover a{
+  color: black;
+}
+.nav ul li a{
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+.row{
+  margin-left: 15%;
+}
+
+.card {
+  background-color: lightyellow;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.list-acara{
+margin-top: 30px;
+}
+
+.card .list{
+  background-color: lightgrey;
+  padding : 10px 5px 10px 5px;
+  border-bottom: 2px solid darkblue;
+}
+
+.card .list:nth-child(even){
+  background-color: skyblue;
+  padding : 10px 5px 10px 5px;
+  border-bottom: 2px solid hotpink;
+}
+
+.info-acara{
+  color: red;
+}
